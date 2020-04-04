@@ -3,3 +3,14 @@
 @import url(./__not-found-title/news__not-found-title.css);
 @import url(./__not-found-subtitle/news__not-found-subtitle.css);
 @import url(./__not-found-icon/news__not-found-icon.css);
+@import url(./__result/news__result.css);
+@import url(./__result-title/news__result-title.css);
+@import url(./__result-link/news__result-link.css);
+
+.news {
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}

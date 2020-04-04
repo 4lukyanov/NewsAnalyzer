@@ -1,8 +1,10 @@
-.news__found {
-    width: 85.5555556%;
-    margin: auto;
+.news__result-title {
     font-family: 'Roboto Slab', sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
     color: #1A1B22;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
