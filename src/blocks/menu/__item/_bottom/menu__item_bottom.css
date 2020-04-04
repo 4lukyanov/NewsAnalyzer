@@ -1,0 +1,11 @@
+.menu__item_bottom a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #1A1B22;
+    font-weight: 300;
+    transition: .2s;
+}
+
+.menu__item_bottom:hover a {
+    color: #e6e6e6;
+}
