@@ -29,3 +29,15 @@
 .search__button:focus {
   outline: none;
 }
+
+@media screen and (max-width: 450px) {
+  .search__button{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

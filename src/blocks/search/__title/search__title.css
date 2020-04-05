@@ -11,3 +11,42 @@
   margin-right: auto;
   width: 40%;
 }
+
+@media screen and (max-width: 1280px) {
+  .search__title {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .search__title {
+    margin-top: 50px;
+    margin-bottom: 24px;
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search__title {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    width: 57.7%;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .search__title {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .search__title {
+    margin-top: 30px;
+    width: 90%;
+  }
+}

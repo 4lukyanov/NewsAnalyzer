@@ -4,8 +4,23 @@
   color: #ffffff;
   font-weight: 300;
   transition: 0.2s;
+  margin-top: 10px;
 }
 
 .menu__item_top:hover a {
   color: #e6e6e6;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .menu__item_top a{
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item_top a{
+    margin-top: 0px;
+  }
 }

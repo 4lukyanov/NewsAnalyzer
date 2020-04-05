@@ -12,9 +12,28 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-
   text-decoration: none;
-  height: 80px;
+  height: 70px;
   align-items: center;
   display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu__item a {
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item a {
+    height: 58px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu__item {
+    margin-left: 11px;
+  }
 }

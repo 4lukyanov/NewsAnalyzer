@@ -12,3 +12,26 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.search__panel:focus {
+  outline: none;
+  border: solid 1px #2f71e5;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 652px) {
+  .header {
+    height: 58px;
+  }
+}

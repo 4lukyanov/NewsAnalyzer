@@ -1,3 +1,33 @@
 .news__not-found-icon {
   margin-top: 86px;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__not-found-icon {
+    margin-top: 76px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__not-found-icon {
+    margin-top: 66px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__not-found-icon {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__not-found-icon {
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news__not-found-icon {
+    margin-top: 26px;
+  }
+}
