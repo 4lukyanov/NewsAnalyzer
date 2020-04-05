@@ -129,7 +129,16 @@
       </main>
 
       <footer class="footer">
-
+          <p class="footer__copyright">© 2020. NewsAnalyzer</p>
+          <ul class="menu">
+              <li class="menu__item menu__item_bottom"><a href="index.html">Главная</a></li>
+              <li class="menu__item menu__item_bottom"><a href="about.html">О проекте</a></li>
+              <li class="menu__item menu__item_bottom"><a href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+          </ul>
+          <ul class="footer__social">
+              <li><a href="https://github.com/4lukyanov" target="_blank"><img class="footer__social-icon" src="<%=require('./images/github.svg').default%>" alt="GitHub"></a></li>
+              <li><a href="https://vk.com/lukyanov_4" target="_blank"><img class="footer__social-icon" src="<%=require('./images/vk.svg').default%>" alt="VK"></a></li>
+          </ul>
       </footer>
   </div>
   <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
