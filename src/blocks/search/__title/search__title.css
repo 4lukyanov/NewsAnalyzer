@@ -1,13 +1,13 @@
 .search__title {
-    font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 64px;
-    margin-top: 60px;
-    margin-bottom: 32px;
-    color: #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  margin-top: 60px;
+  margin-bottom: 32px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }

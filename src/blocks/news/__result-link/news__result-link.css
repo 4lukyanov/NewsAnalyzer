@@ -1,13 +1,18 @@
 .news__result-link {
-    font-family: 'Roboto', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #1A1B22;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1a1b22;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.news__result-link:hover {
+  color: rgb(104, 104, 105);
 }

@@ -1,6 +1,7 @@
 .news__result {
-    display: flex;
-    justify-content: space-between;
-    color: #1A1B22;
-    padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  color: #1a1b22;
+  padding-top: 80px;
+  padding-bottom: 64px;
 }

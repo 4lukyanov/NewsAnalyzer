@@ -2,14 +2,13 @@
 @import url(./_light/header_light.css);
 
 .header {
-    height: 80px;
-    width: 100%;
-    z-index: 1;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

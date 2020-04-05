@@ -2,11 +2,11 @@
 @import url(../logo/_light/logo_light.css);
 
 .logo {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    text-decoration: none;
-    margin-left: 104px;
-    font-style: normal;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 104px;
+  font-style: normal;
 }

@@ -1,9 +1,9 @@
 .root {
-    max-width: 1440px;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  margin: auto;
 }
 
 /* div, section, p, h1, h2, span, img, header, footer, main, h3, h4, li, ul, a, form, button, input {

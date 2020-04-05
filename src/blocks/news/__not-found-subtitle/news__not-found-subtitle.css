@@ -1,12 +1,12 @@
 .news__not-found-subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #B6BCBF;
-    width: 30%;
-    margin-top: 0px;
-    margin-bottom: 80px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #b6bcbf;
+  width: 30%;
+  margin-top: 0px;
+  margin-bottom: 80px;
 }

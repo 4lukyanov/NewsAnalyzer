@@ -6,11 +6,20 @@
 @import url(./__result/news__result.css);
 @import url(./__result-title/news__result-title.css);
 @import url(./__result-link/news__result-link.css);
+@import url(./__list/news__list.css);
+@import url(./__item/news__item.css);
+@import url(./__item-image/news__item-image.css);
+@import url(./__description/news__item-description.css);
+@import url(./__item-pubdtae/news__item-pubdate.css);
+@import url(./__item-title/news__item-title.css);
+@import url(./__item-text/news__item-text.css);
+@import url(./__item-link/news__item-link.css);
 
 .news {
-    width: 100%;
-    margin: auto;
-    font-family: 'Roboto Slab', sans-serif;
-    font-style: normal;
-    font-weight: normal;
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: #f5f6f7;
 }

@@ -1,0 +1,5 @@
+.news__item-image {
+    min-height: 272px;
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+}

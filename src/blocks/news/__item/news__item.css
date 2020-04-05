@@ -1,0 +1,15 @@
+.news__item {
+  width: 32.4675325%;
+  min-height: 576px;
+  background: #ffffff;
+  border-radius: 16px;
+  transition: 0.2s;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news__item:hover {
+  box-shadow: 0 0 130px rgba(50, 50, 51, 0.1);
+}

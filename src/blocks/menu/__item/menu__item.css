@@ -2,22 +2,19 @@
 @import url(./_bottom/menu__item_bottom.css);
 @import url(./_top/menu__item_top.css);
 
-
 .menu__item {
-    margin-left: 34px;
+  margin-left: 34px;
 }
 
 .menu__item a {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 
-    text-decoration: none;
-    height: 80px;
-    align-items: center;
-    display: flex;
+  text-decoration: none;
+  height: 80px;
+  align-items: center;
+  display: flex;
 }
-
-

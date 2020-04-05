@@ -2,10 +2,10 @@
 @import url(./__progress/loading__progress.css);
 
 .loading {
-    display: none;
-    width: 100%;
-    margin: auto;
-    background: #F5F6F7;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  display: none;
+  width: 100%;
+  margin: auto;
+  background: #f5f6f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
