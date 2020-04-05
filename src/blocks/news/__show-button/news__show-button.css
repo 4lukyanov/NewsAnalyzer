@@ -1,0 +1,32 @@
+.news__show-button {
+  background: #ffffff;
+  border-radius: 80px;
+  width: 23.3766234%;
+  height: 64px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #1a1b22;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  margin-top: 48px;
+}
+
+.news__show-button:hover {
+  background: #f0f0f0;
+}
+
+.news__show-button:active {
+  background: #e2e2e2;
+}
+
+.news__show-button:focus {
+  outline: none;
+}

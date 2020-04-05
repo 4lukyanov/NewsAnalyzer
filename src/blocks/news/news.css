@@ -14,6 +14,8 @@
 @import url(./__item-title/news__item-title.css);
 @import url(./__item-text/news__item-text.css);
 @import url(./__item-link/news__item-link.css);
+@import url(./__show-more/news__show-more.css);
+@import url(./__show-button/news__show-button.css);
 
 .news {
   width: 100%;
