@@ -7,3 +7,32 @@
   color: #b6bcbf;
   margin-left: 104px;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer__copyright {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .footer__copyright {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer__copyright {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 180px;
+    left: 0px;
+    margin-left: 0px;
+  }
+}

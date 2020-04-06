@@ -37,3 +37,9 @@
     margin-left: 11px;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .menu .menu__item_bottom{
+    margin-left: 0px;
+  }
+}

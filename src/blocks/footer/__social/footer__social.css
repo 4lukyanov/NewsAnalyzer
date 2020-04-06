@@ -1,8 +1,36 @@
-
-
 .footer__social {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    margin-right: 106px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 106px;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__social {
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__social {
+    padding-left: 0px;
+    width: 93px;
+    margin-right: 43px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .footer__social {
+    padding-left: 0px;
+    width: 90px;
+    margin-right: 42px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer__social {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 0px;
+  }
 }

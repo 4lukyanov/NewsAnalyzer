@@ -1,3 +1,36 @@
 .about__photo {
   margin-left: 104px;
 }
+
+@media screen and (max-width: 1280px) {
+  .about__photo {
+    margin-left: 80px;
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__photo {
+    margin-left: 60px;
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__photo {
+    margin-left: 40px;
+    width: 232px;
+    height: 232px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .about__photo {
+    margin-left: 0px;
+    margin-bottom: 24px;
+    width: 272px;
+    height: 272px;
+  }
+}

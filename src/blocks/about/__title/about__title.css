@@ -8,3 +8,31 @@
   margin-top: 51px;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 1280px) {
+  .about__title {
+    margin-top: 41px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about__title {
+    margin-top: 31px;
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .about__title {
+    margin-bottom: 16px;
+  }
+}
