@@ -30,3 +30,32 @@
 .news__show-button:focus {
   outline: none;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__show-button {
+    width: 25.25%;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__show-button {
+    width: 27.25%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__show-button {
+    width: 31.25%;
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__show-button {
+    margin-top: 13px;
+    width: 100%;
+  }
+}
+

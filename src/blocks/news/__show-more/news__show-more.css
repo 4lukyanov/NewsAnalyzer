@@ -5,3 +5,33 @@
   justify-content: center;
   height: 208px;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__show-more {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__show-more {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__show-more {
+    height: 118px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__show-more {
+    height: 114px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news__show-more {
+    height: 112px;
+  }
+}
