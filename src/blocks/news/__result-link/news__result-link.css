@@ -16,3 +16,10 @@
 .news__result-link:hover {
   color: rgb(230, 230, 230);
 }
+
+
+@media screen and (max-width: 470px) {
+  .news__result-link {
+    margin-top: 16px;
+  }
+}

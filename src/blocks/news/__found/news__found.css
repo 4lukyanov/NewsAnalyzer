@@ -6,3 +6,33 @@
   font-weight: normal;
   color: #1a1b22;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__found {
+    width: 87.58%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__found {
+    width: 88.58%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__found {
+    width: 89.58%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__found {
+    width: 89.8%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news__found {
+    width: 90%;
+  }
+}

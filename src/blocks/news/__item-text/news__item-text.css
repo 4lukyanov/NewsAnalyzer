@@ -8,3 +8,26 @@
   margin-top: 16px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__item-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__item-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__item-text {
+    height: 88px;
+  }
+}

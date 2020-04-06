@@ -5,3 +5,39 @@
   padding-top: 80px;
   padding-bottom: 64px;
 }
+
+@media screen and (max-width: 1280px) {
+  .news__result {
+    padding-top: 75px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news__result {
+    padding-top: 70px;
+    padding-bottom: 55x;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__result {
+    padding-top: 40x;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__result {
+    padding-top: 35px;
+    padding-bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news__result {
+    padding-top: 32px;
+    padding-bottom: 36px;
+    flex-direction: column;
+  }
+}

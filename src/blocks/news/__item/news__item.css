@@ -1,7 +1,6 @@
 .news__item {
   width: 32.4675325%;
   min-height: 576px;
-  height: auto;
   background: #ffffff;
   border-radius: 16px;
   transition: 0.2s;
@@ -13,4 +12,31 @@
 
 .news__item:hover {
   box-shadow: 0 0 130px rgba(50, 50, 51, 0.1);
+}
+
+@media screen and (max-width: 1024px) {
+  .news__item {
+    justify-content: start;
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news__item {
+    min-height: 420px;
+    width: 32.56%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .news__item {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .news__item {
+    margin-bottom: 8px;
+  }
 }

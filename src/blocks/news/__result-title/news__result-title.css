@@ -8,3 +8,10 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+@media screen and (max-width: 470px) {
+  .news__result-title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+}
