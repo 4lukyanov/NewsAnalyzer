@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News Analyzer</title>
+  <meta name="description" content="News Analyzer - сервис для поиска и анализа мировых событий.">
+  <link rel="shortcut icon" href="<%=require('./images/favicon.png').default%>">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body>
@@ -13,7 +15,7 @@
 
         <header class="header header_light">
           <a href="index.html" class="logo logo_light" title="Перейти на главную" alt="Перейти на главную">NewsAnalyzer</a>
-          <ul class="menu">
+          <ul class="menu menu_top">
               <li class="menu__item menu__item_top menu__item_active"><a href="#">Главная</a></li>
               <li class="menu__item menu__item_top"><a href="about.html">О проекте</a></li>
           </ul>
@@ -21,7 +23,7 @@
 
         <h1 class="search__title">Что в мире творится?</h1>
         <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form action="" class="search__form">
+        <form class="search__form">
             <input type="text" class="search__panel" placeholder="Введите тему новости" required>
             <button class="search__button">Искать</button>
         </form>
@@ -35,12 +37,12 @@
               <h3 class="news__not-found-title">Ничего не найдено</h3>
               <p class="news__not-found-subtitle">К сожалению, по вашему запросу ничего не найдено.</p>
           </div>
-          
+
           <div class="loading">
               <div class="loading__circle"></div>
               <p class="loading__progress">Идет поиск новостей...</p>
           </div>
-        
+
         <section class="news">
 
           <div class="news__found">
@@ -90,7 +92,7 @@
                       <p class="news__item-link">Лента.ру</p>
                     </div>
                   </div>
-  
+
                   <div class="news__item">
                     <img class="news__item-image" src="<%=require('./images/image_04.jpg').default%>" title="Результат поиска"  alt="Результат поиска">
                     <div class="news__item-description">
@@ -100,7 +102,7 @@
                       <p class="news__item-link">Медуза</p>
                     </div>
                   </div>
-  
+
                   <div class="news__item">
                     <img class="news__item-image" src="<%=require('./images/image_07.jpg').default%>" title="Результат поиска"  alt="Результат поиска">
                     <div class="news__item-description">
@@ -123,14 +125,14 @@
               <h2 class="about__title">Об авторе</h2>
               <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
               <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
-          </div>   
+          </div>
         </section>
 
       </main>
 
       <footer class="footer">
           <p class="footer__copyright">© 2020. NewsAnalyzer</p>
-          <ul class="menu menu__bottom">
+          <ul class="menu menu_bottom">
               <li class="menu__item menu__item_bottom"><a href="index.html">Главная</a></li>
               <li class="menu__item menu__item_bottom"><a href="about.html">О проекте</a></li>
               <li class="menu__item menu__item_bottom"><a href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>

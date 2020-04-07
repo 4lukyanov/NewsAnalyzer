@@ -8,3 +8,4 @@
 .cache
 .eslintcache
 package-lock.json
+.editorconfig
