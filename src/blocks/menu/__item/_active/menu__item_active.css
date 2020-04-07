@@ -1,4 +1,9 @@
-.menu__item_active {
+.menu .menu__item_active-light a {
   color: #fff;
   border-bottom: solid 3px #fff;
+}
+
+.menu .menu__item_active-dark a {
+  color: #1A1B22;
+  border-bottom: solid 3px #1A1B22;
 }

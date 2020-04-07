@@ -1,6 +1,7 @@
 @import url(./_active/menu__item_active.css);
 @import url(./_bottom/menu__item_bottom.css);
 @import url(./_top/menu__item_top.css);
+@import url(./_dark/menu__item_dark.css);
 
 .menu__item {
   margin-left: 34px;
@@ -16,6 +17,7 @@
   height: 70px;
   align-items: center;
   display: flex;
+  color: #B6BCBF;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,12 @@
+/* .menu__item_dark a{
+  color:#B6BCBF;
+} */
+
+.menu__item_dark:hover a {
+  color:#1A1B22;
+}
+
+.menu__item_active_dark a {
+  color: #1A1B22;
+  border-bottom: solid 3px #1A1B22;
+}

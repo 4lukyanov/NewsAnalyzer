@@ -1,9 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>О проекте</title>
+    <meta name="description" content="News Analyzer - о проекте.">
+    <link rel="shortcut icon" href="<%=require('./images/favicon.png').default%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
   </head>
-  <body></body>
+  <body>
+    <div class="root">
+      <header class="header header_dark">
+        <a href="index.html" class="logo logo_dark" title="Перейти на главную" alt="Перейти на главную">NewsAnalyzer</a>
+        <ul class="menu menu_top">
+            <li class="menu__item menu__item_dark menu__item_top"><a href="index.html">Главная</a></li>
+            <li class="menu__item menu__item_dark menu__item_top menu__item_active-dark"><a href="#">О проекте</a></li>
+        </ul>
+      </header>
+
+      <main class="main">
+        <section class="clients"></section>
+
+        <section class="technologies"></section>
+
+        <section class="about">
+          <img src="<%=require('./images/author.jpg').default%>" alt="A.Lukyanov" class="about__photo">
+          <div class="about__container">
+              <h2 class="about__title">Об авторе</h2>
+              <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+              <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+          </div>
+        </section>
+
+        <section class="github"></section>
+
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">© 2020. NewsAnalyzer</p>
+        <ul class="menu menu_bottom">
+            <li class="menu__item menu__item_bottom"><a href="index.html">Главная</a></li>
+            <li class="menu__item menu__item_bottom"><a href="about.html">О проекте</a></li>
+            <li class="menu__item menu__item_bottom"><a href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+        </ul>
+        <ul class="footer__social">
+            <li><a href="https://github.com/4lukyanov" target="_blank"><img class="footer__social-icon" src="<%=require('./images/github.svg').default%>" alt="GitHub"></a></li>
+            <li><a href="https://vk.com/lukyanov_4" target="_blank"><img class="footer__social-icon" src="<%=require('./images/vk.svg').default%>" alt="VK"></a></li>
+        </ul>
+    </footer>
+    </div>
+  </body>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </html>
