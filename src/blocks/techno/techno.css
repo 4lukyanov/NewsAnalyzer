@@ -1,0 +1,40 @@
+@import url(./__image/techno__image.css);
+@import url(./__item-title/techno__item-title.css);
+@import url(./__item/techno__item.css);
+@import url(./__title/techno__title.css);
+@import url(./__list/techno__list.css);
+
+.techno {
+  width: 100%;
+  margin: auto;
+  background: #F5F6F7;
+  padding-top: 80px;
+  padding-bottom: 97px;
+  display: flex;
+}
+
+@media all and (max-width: 1280px) {
+  .techno {
+    padding-top: 70px;
+    padding-bottom: 87px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .techno {
+    padding-top: 60px;
+    padding-bottom: 77px;
+  }
+}
+
+@media all and (max-width: 980px) {
+  .techno {
+   flex-direction: column;
+   padding-top: 40px;
+   padding-bottom: 51px;
+  }
+}
+
+
+
+

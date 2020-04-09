@@ -1,0 +1,54 @@
+.techno__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+}
+
+@media screen and (max-width: 1280px) {
+  .techno__item {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .techno__item {
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .techno__item {
+    margin-left: 0px;
+    margin-right: 93px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .techno__item {
+    margin-left: 0px;
+    margin-right: 73px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .techno__item {
+    margin-left: 0px;
+    margin-right: 53px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .techno__item {
+    margin-left: 0px;
+    margin-right: 62px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .techno__item:nth-child(even) {
+    margin-right: 21px;
+  }
+}
