@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Аналитика</title>
+    <meta name="description" content="News Analyzer - аналитика.">
+    <link rel="shortcut icon" href="<%=require('./images/favicon.png').default%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  </head>
+  <body>
+    <div class="root">
+      <header class="header header_dark">
+        <a href="index.html" class="logo logo_dark" title="Перейти на главную" alt="Перейти на главную">NewsAnalyzer</a>
+        <ul class="menu menu_top">
+            <li class="menu__item menu__item_dark menu__item_top"><a href="index.html">Главная</a></li>
+            <li class="menu__item menu__item_dark menu__item_top menu__item_active-dark"><a href="#">О проекте</a></li>
+        </ul>
+      </header>
+
+      <main class="main">
+        <section class="crumbs">
+          <a href="./index.html" class="crumbs__link">Главная</a>
+          <a nohref="./analytics.html" class="crumbs__link crumbs__link_active"> Аналитика</a>
+        </section>
+
+        <section class="statistics">
+          <div class="statistics__info">
+            <h2 class="statistics__question">Вы спросили: «<span class="statistics__keyword">Путешествия</span>»</h2>
+            <p class="statistics__text">Новостей за неделю: <span class="statistics__total">34 326</span></p>
+            <p class="statistics__text">Упоминаний в заголовках: <span class="statistics__notifications">235</span></p>
+        </div>
+        </section>
+
+        <section class="analytics">
+
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__copyright">© 2020. NewsAnalyzer</p>
+        <ul class="menu menu_bottom">
+            <li class="menu__item menu__item_bottom"><a href="index.html">Главная</a></li>
+            <li class="menu__item menu__item_bottom"><a href="about.html">О проекте</a></li>
+            <li class="menu__item menu__item_bottom"><a href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+        </ul>
+        <ul class="footer__social">
+            <li><a href="https://github.com/4lukyanov" target="_blank"><img class="footer__social-icon" src="<%=require('./images/github.svg').default%>" alt="GitHub"></a></li>
+            <li><a href="https://vk.com/lukyanov_4" target="_blank"><img class="footer__social-icon" src="<%=require('./images/vk.svg').default%>" alt="VK"></a></li>
+        </ul>
+    </footer>
+    </div>
+  </body>
+  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</html>

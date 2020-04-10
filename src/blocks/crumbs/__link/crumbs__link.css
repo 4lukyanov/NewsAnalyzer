@@ -1,0 +1,19 @@
+@import url(./_active/crumbs__link_active.css);
+
+.crumbs__link {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1a1b22;
+  text-decoration: none;
+}
+
+.crumbs__link:not(:first-child):before {
+  content: "/";
+}
+
+.crumbs__link:hover {
+  color: rgb(230, 230, 230);
+}
