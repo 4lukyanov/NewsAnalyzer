@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/4lukyanov/NewsAnalyzer/issues"
   },
-  "homepage": "https://github.com/4lukyanov/NewsAnalyzer/src/",
+  "homepage": "https://github.com/4lukyanov/NewsAnalyzer/",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
