@@ -4,3 +4,31 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1280px) {
+  .analytics__row-x {
+    width: 89,8837209%;
+    padding-left: 10.1162791%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__row-x {
+    width: 87,8837209%;
+    padding-left: 12.1162791%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__row-x {
+    width: 84.8837209%;
+    padding-left: 15.1162791%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__row-x {
+    width: 72.2222222%;
+    padding-left: 27.7777778%;
+  }
+}

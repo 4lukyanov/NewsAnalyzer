@@ -1,5 +1,5 @@
 .statistics__info {
-  width: 85%;
+  width: 85.5555556%;
   padding-bottom: 76px;
   padding-left: 104px;
 }
@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .statistics__info {
     padding-left: 16px;
     padding-bottom: 24px;

@@ -2,3 +2,34 @@
   margin-left: 104px;
   width: 85.5555556%;
 }
+
+@media screen and (max-width: 1280px) {
+  .analytics__chart {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__chart {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__chart {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .analytics__chart {
+    margin-left: 26px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__chart {
+    width: 90%;
+    margin-left: 16px;
+  }
+}

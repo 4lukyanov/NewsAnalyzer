@@ -1,5 +1,6 @@
 {
   "name": "NewsAnalyzer",
+  "homepage": "https://4lukyanov.github.io/NewsAnalyzer/",
   "version": "0.0.1",
   "description": "**Проект \"NewsAnalyzer\"",
   "main": "index.js",

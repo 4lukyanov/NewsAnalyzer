@@ -1,5 +1,5 @@
 .analytics__y-item {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -7,4 +7,10 @@
   color: #1a1b22;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__y-item {
+    line-height: 48px;
+  }
 }

@@ -4,3 +4,28 @@
   height: 554px;
   padding-bottom: 110px;
 }
+
+@media screen and (max-width: 1280px) {
+  .analytics__graph {
+    padding-bottom: 96px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__graph {
+    padding-bottom: 86px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__graph {
+    padding-bottom: 76px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__graph {
+    height: 336px;
+    padding-bottom: 38px;
+  }
+}

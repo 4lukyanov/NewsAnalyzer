@@ -5,3 +5,27 @@
   justify-content: space-around;
   margin-top: 4px;
 }
+
+@media screen and (max-width: 1280px) {
+  .analytics__row {
+    width: 89,8837209%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__row {
+    width: 87,8837209%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__row {
+    width: 84.8837209%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__row {
+    width: 72.2222222%;
+  }
+}

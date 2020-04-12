@@ -8,3 +8,36 @@
   margin-left: 104px;
   margin-bottom: 48px;
 }
+
+@media screen and (max-width: 1280px) {
+  .analytics__day {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__day {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__day {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .analytics__day {
+    margin-left: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__day {
+    margin-left: 16px;
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,11 +1,35 @@
 .analytics__date {
-  font-family: 'Roboto', serif;
+  font-family: "Roboto", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #B6BCBF;
+  color: #b6bcbf;
   width: 7.3%;
+}
+
+@media screen and (max-width: 1280px) {
+  .analytics__date {
+    width: 10.1162791%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .analytics__date {
+    width: 12.1162791%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analytics__date {
+    width: 15.1162791%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .analytics__date {
+    width: 27.7777778%;
+  }
 }
