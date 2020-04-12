@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>News Analyzer</title>
+  <meta name="description" content="News Analyzer - сервис для поиска и анализа мировых событий.">
+  <link rel="shortcut icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="style.af6345b2f24c81df5aac.css?c88fb588cc89df463ca9">
+</head>
+<body>
+  <div class="root">
+      <section class="search">
+
+        <header class="header header_light">
+          <a href="index.html" class="logo logo_light" title="Перейти на главную" alt="Перейти на главную">NewsAnalyzer</a>
+          <ul class="menu menu_top">
+              <li class="menu__item menu__item_top menu__item_active-light"><a href="#">Главная</a></li>
+              <li class="menu__item menu__item_top"><a href="about.html">О проекте</a></li>
+          </ul>
+        </header>
+
+        <h1 class="search__title">Что в мире творится?</h1>
+        <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+        <form class="search__form">
+            <input type="text" class="search__panel" placeholder="Введите тему новости" required>
+            <button class="search__button">Искать</button>
+        </form>
+
+      </section>
+
+      <main class="main">
+
+          <div class="news__not-found">
+              <img class="news__not-found-icon" src="./images/not-found.svg" title="Ничего не найдено"  alt="Ничего не найдено">
+              <h3 class="news__not-found-title">Ничего не найдено</h3>
+              <p class="news__not-found-subtitle">К сожалению, по вашему запросу ничего не найдено.</p>
+          </div>
+
+          <div class="loading">
+              <div class="loading__circle"></div>
+              <p class="loading__progress">Идет поиск новостей...</p>
+          </div>
+
+        <section class="news">
+
+          <div class="news__found">
+              <div class="news__result">
+                  <h2 class="news__result-title">Результаты поиска</h2>
+                  <a href="analytics.html" class="news__result-link" target="_blank">Посмотреть аналитику &gt;</a>
+              </div>
+
+              <div class="news__list">
+                <div class="news__item">
+                  <img class="news__item-image" src="./images/image_08.jpg" title="Результат поиска"  alt="Результат поиска">
+                  <div class="news__item-description">
+                    <time class="news__item-pubdate">2 августа, 2019</time>
+                    <h3 class="news__item-title">Национальное достояние – парки</h3>
+                    <p class="news__item-text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                    <p class="news__item-link">Лента.ру</p>
+                  </div>
+                </div>
+
+                <div class="news__item">
+                  <img class="news__item-image" src="./images/image_04.jpg" title="Результат поиска"  alt="Результат поиска">
+                  <div class="news__item-description">
+                    <time class="news__item-pubdate">2 августа, 2019</time>
+                    <h3 class="news__item-title">Лесные огоньки: история одной фотографии</h3>
+                    <p class="news__item-text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+                    <p class="news__item-link">Медуза</p>
+                  </div>
+                </div>
+
+                <div class="news__item">
+                  <img class="news__item-image" src="./images/image_07.jpg" title="Результат поиска"  alt="Результат поиска">
+                  <div class="news__item-description">
+                    <time class="news__item-pubdate">2 августа, 2019</time>
+                    <h3 class="news__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+                    <p class="news__item-text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                    <p class="news__item-link">Риа</p>
+                  </div>
+                </div>
+
+                <div class="news__list">
+                  <div class="news__item">
+                    <img class="news__item-image" src="./images/image_08.jpg" title="Результат поиска"  alt="Результат поиска">
+                    <div class="news__item-description">
+                      <time class="news__item-pubdate">2 августа, 2019</time>
+                      <h3 class="news__item-title">Национальное достояние – парки</h3>
+                      <p class="news__item-text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                      <p class="news__item-link">Лента.ру</p>
+                    </div>
+                  </div>
+
+                  <div class="news__item">
+                    <img class="news__item-image" src="./images/image_04.jpg" title="Результат поиска"  alt="Результат поиска">
+                    <div class="news__item-description">
+                      <time class="news__item-pubdate">2 августа, 2019</time>
+                      <h3 class="news__item-title">Лесные огоньки: история одной фотографии</h3>
+                      <p class="news__item-text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+                      <p class="news__item-link">Медуза</p>
+                    </div>
+                  </div>
+
+                  <div class="news__item">
+                    <img class="news__item-image" src="./images/image_07.jpg" title="Результат поиска"  alt="Результат поиска">
+                    <div class="news__item-description">
+                      <time class="news__item-pubdate">2 августа, 2019</time>
+                      <h3 class="news__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+                      <p class="news__item-text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                      <p class="news__item-link">Риа</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="news__show-more">
+              <button class="news__show-button">Показать еще</button>
+          </div>
+        </section>
+
+        <section class="about">
+          <img src="./images/author.jpg" alt="A.Lukyanov" class="about__photo">
+          <div class="about__container">
+              <h2 class="about__title">Об авторе</h2>
+              <p class="about__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+              <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+          <p class="footer__copyright">© 2020. NewsAnalyzer</p>
+          <ul class="menu menu_bottom">
+              <li class="menu__item menu__item_bottom"><a href="index.html">Главная</a></li>
+              <li class="menu__item menu__item_bottom"><a href="about.html">О проекте</a></li>
+              <li class="menu__item menu__item_bottom"><a href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+          </ul>
+          <ul class="footer__social">
+              <li><a href="https://github.com/4lukyanov" target="_blank"><img class="footer__social-icon" src="./images/github.svg" alt="GitHub"></a></li>
+              <li><a href="https://vk.com/lukyanov_4" target="_blank"><img class="footer__social-icon" src="./images/vk.svg" alt="VK"></a></li>
+          </ul>
+      </footer>
+  </div>
+  <script src="main.83c8bca1a5ad16e5cf99.js?c88fb588cc89df463ca9"></script>
+</body>
+</html>
