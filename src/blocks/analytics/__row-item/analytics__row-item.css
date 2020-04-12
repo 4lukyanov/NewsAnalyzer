@@ -1,0 +1,32 @@
+.analytics__row-item {
+  width: 0%;
+  background: #2F71E5;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+
+.analytics__row-item-30 {
+  width: 30%;
+}
+
+.analytics__row-item-10 {
+  width: 10%;
+}
+
+.analytics__row-item-100 {
+  width: 100%;
+}
+
+.analytics__row-item-25 {
+  width: 25%;
+}
+
+.analytics__row-item-15 {
+  width: 15%;
+}
+
+.analytics__row-item-50 {
+  width: 50%;
+}

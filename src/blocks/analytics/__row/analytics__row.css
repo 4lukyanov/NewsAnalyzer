@@ -1,0 +1,7 @@
+.analytics__row {
+  width: 92.6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 4px;
+}

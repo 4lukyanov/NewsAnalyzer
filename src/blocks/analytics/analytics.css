@@ -1,0 +1,19 @@
+@import url(./__day/analytics__day.css);
+@import url(./__chart/analytics__chart.css);
+@import url(./__head/analytics__head.css);
+@import url(./__date/analytics__date.css);
+@import url(./__count/analytics__count.css);
+@import url(./__row-x/analytics__row-x.css);
+@import url(./__x-item/analytics__x-item.css);
+@import url(./__y-item/analytics__y-item.css);
+@import url(./__graph/analytics__graph.css);
+@import url(./__row-y/analytics__row-y.css);
+@import url(./__row/analytics__row.css);
+@import url(./__row-item/analytics__row-item.css);
+@import url(./__row-count/analytics__row-count.css);
+
+.analytics {
+  width: 100%;
+  background-color: #F5F6F7;
+  padding-top: 80px;
+}
