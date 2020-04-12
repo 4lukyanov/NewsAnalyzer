@@ -1,0 +1,9 @@
+.commit__about {
+  margin-left: 16px;
+}
+
+@media all and (max-width: 1024px) {
+  .commit__about {
+    margin-left: 12px;
+  }
+}

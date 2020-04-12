@@ -1,0 +1,21 @@
+.commit__photo {
+  object-fit: cover;
+  width: 64px;
+  height: 64px;
+}
+
+@media all and (max-width: 1280px) {
+  .commit__photo {
+    width: 56px;
+    height: 56px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .commit__photo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+

@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../vendor/glide.core.css);
+@import url(../vendor/glide.theme.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -15,3 +17,4 @@
 @import url(../blocks/github/github.css);
 @import url(../blocks/statistics/statistics.css);
 @import url(../blocks/crumbs/crumbs.css);
+@import url(../blocks/commit/commit.css);

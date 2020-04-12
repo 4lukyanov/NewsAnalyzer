@@ -1,0 +1,23 @@
+.commit__link {
+  display: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border-radius: 80px;
+  margin:auto;
+  margin-top:0px;
+  margin-bottom: 32px;
+  border: 1px solid #1a1b22;
+  width: 90%;
+  text-align: center;
+  padding: 15px 0;
+  color: #1a1b22;
+  text-decoration: none;
+}
+
+@media all and (max-width: 320px) {
+  .commit__link {
+    display: block;
+  }
+}

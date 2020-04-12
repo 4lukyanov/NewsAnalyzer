@@ -1,0 +1,7 @@
+.commit__info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+

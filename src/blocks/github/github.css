@@ -1,3 +1,7 @@
+@import url(./__commits/github__commits.css);
+@import url(./__card/github__card.css);
+@import url(./__list/github__list.css);
+
 .github {
   background-color: #f5f6f7;
   padding-left: 104px;
@@ -68,3 +72,4 @@
     display: none;
   }
 }
+

@@ -1,0 +1,31 @@
+.github__card {
+  width: 32.36%;
+  height: 288px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.github__card:hover {
+  box-shadow: 0 0 130px rgba(50, 50, 51, 0.1);
+}
+
+@media all and (max-width: 1024px) {
+  .github__card {
+    width: 48.8%;
+    height: 242px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .glide__slides .github__card {
+    width: 90%;
+    height: 264px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+.github__list {
+  margin-left: 104px;
+}
+
+@media all and (max-width: 460px) {
+  .github__list {
+    margin-left: 16px;
+  }
+}
