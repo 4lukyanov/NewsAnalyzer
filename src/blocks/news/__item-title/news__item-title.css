@@ -7,6 +7,10 @@
   color: #1a1b22;
   margin-bottom: 0px;
   margin-top: 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 @media screen and (max-width: 1024px) {

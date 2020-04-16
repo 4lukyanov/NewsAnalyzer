@@ -46,3 +46,7 @@
     padding-bottom: 55px;
   }
 }
+
+.loading_show {
+  display: block;
+}

@@ -8,7 +8,11 @@ const isDev = process.env.NODE_ENV === "development";
 
 module.exports = {
 
-  entry: { main: "./src/index.js" },
+  entry: {
+    main: './src/index.js',
+    analytics: './src/analytics/index.js',
+    about: './src/about/index.js'
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[chunkhash].js"

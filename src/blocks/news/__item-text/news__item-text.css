@@ -7,16 +7,20 @@
   color: #1a1b22;
   margin-top: 16px;
   margin-bottom: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .news__item-text {
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .news__item-text {

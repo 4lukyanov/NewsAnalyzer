@@ -49,6 +49,6 @@
 
 @media screen and (max-width: 400px) {
   .techno__item:nth-child(even) {
-    margin-right: 21px;
+    margin-right: 19px;
   }
 }

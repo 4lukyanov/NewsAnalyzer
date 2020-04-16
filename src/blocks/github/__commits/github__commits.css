@@ -35,3 +35,7 @@
     display: none;
   }
 }
+
+.github__commits_off {
+  display: none;
+}
