@@ -24,9 +24,8 @@ gitHubApi.getCommits()
      preloader.classList.remove('error_show');
      const commitsArr = commitCards.createCards(res);
      commitCardsList.addCards(commitsArr);
-     new Glide('.glide', config).mount();
      commitCardsList.addBullets(commitsArr);
-
+     new Glide('.glide', config).mount();
   })
   .catch(() => {
       error.classList.add('error_show');

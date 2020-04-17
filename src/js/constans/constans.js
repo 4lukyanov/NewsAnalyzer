@@ -44,5 +44,12 @@ export const error = document.querySelector('.error');
 export const commits = document.querySelector('.github__commits');
 
 // preloader
-export const preloader = document.querySelector('.loading')
+export const preloader = document.querySelector('.loading');
+
+// кнопка запроса данных
+export const newsButton = document.querySelector(".search__button");
+
+// форма поиска новости
+export const searchForm = document.forms.search;
+
 
