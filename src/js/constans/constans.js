@@ -34,7 +34,7 @@ export const newsListContainer = document.querySelector('.news__list');
 // контейнер для CommitCardList
 export const commitListContainer = document.querySelector('.glide__slides');
 
-// контейнер для пуль от слайдера
+// контейнер для пагинации слайдера
 export const bullets = document.querySelector('.glide__bullets');
 
 // уведомление об ошибке запроса
@@ -52,4 +52,15 @@ export const newsButton = document.querySelector(".search__button");
 // форма поиска новости
 export const searchForm = document.forms.search;
 
+// кнопка "Показать больше"
+export const showMoreButton = document.querySelector(".news__show-button");
+
+// раздел новостей
+export const newsSection = document.querySelector('.news__found');
+
+// блок "Ничего не найдено"
+export const newsNotFound = document.querySelector('.news__not-found');
+
+//блок с кнопкой "Показать больше"
+export const sectionShowMore = document.querySelector(".news__show-more");
 

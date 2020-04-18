@@ -3,9 +3,12 @@ export class DataStorage {
     this.data = data;
   };
 
-  setData(key, value) {
+  setData(key, keyKeywords, value, valueKeywords) {
     this.clean();
-    localStorage.setItem(key, value);
+    if (value != '[]') {
+      localStorage.setItem(key, value);
+      localStorage.setItem(keyKeywords, valueKeywords);
+    }
   };
 
   getData(key) {

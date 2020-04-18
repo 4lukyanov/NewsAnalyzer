@@ -17,17 +17,17 @@ const commitCardsList = new CommitCardList(commitListContainer, bullets)
 
 gitHubApi.getCommits()
   .then((res) => {
-     preloader.classList.add('error_show');
+     preloader.classList.remove('loading_show');
      return res;
   })
   .then((res) => {
-     preloader.classList.remove('error_show');
      const commitsArr = commitCards.createCards(res);
      commitCardsList.addCards(commitsArr);
      commitCardsList.addBullets(commitsArr);
      new Glide('.glide', config).mount();
   })
   .catch(() => {
+      preloader.classList.remove('loading_show');
       error.classList.add('error_show');
       commits.classList.add('github__commits_off');
   });

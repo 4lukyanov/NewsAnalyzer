@@ -1,4 +1,5 @@
 .news__found {
+  display: none;
   width: 85.5555556%;
   margin: auto;
   font-family: "Roboto Slab", sans-serif;
@@ -35,4 +36,8 @@
   .news__found {
     width: 90%;
   }
+}
+
+.news__found_show {
+  display: block;
 }
