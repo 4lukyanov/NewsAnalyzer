@@ -23,9 +23,10 @@
 
         <h1 class="search__title">Что в мире творится?</h1>
         <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form class="search__form" name="search">
+        <form class="search__form" name="search" novalidate>
             <input type="text" name="keyword" class="search__panel" placeholder="Введите тему новости" required>
             <button class="search__button" type="submit" >Искать</button>
+            <div class="error_validity">Нужно ввести ключевое слово</div>
         </form>
 
       </section>
@@ -62,13 +63,14 @@
                     <p class="news__item-link">Лента.ру</p>
                   </div>
                 </div> -->
+
             </div>
             <div class="news__show-more">
               <button class="news__show-button">Показать еще</button>
           </div>
           </div>
         </section>
-        
+
         <div class="error">
           <img src="<%=require('./images/error.svg').default%>" alt="Произошла ошибка" class="error__img">
           <p class="error__text">Во время запроса произошла ошибка.</p>

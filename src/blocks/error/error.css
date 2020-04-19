@@ -1,5 +1,6 @@
 @import url(./__img/error__img.css);
 @import url(./__text/error__text.css);
+@import url(./__validity/error__validity.css);
 
 .error {
   display: none;

@@ -61,6 +61,11 @@ export const newsSection = document.querySelector('.news__found');
 // блок "Ничего не найдено"
 export const newsNotFound = document.querySelector('.news__not-found');
 
-//блок с кнопкой "Показать больше"
+// блок с кнопкой "Показать больше"
 export const sectionShowMore = document.querySelector(".news__show-more");
 
+// ошибка валидации
+export const errorValidity = document.querySelector('.error_validity');
+
+// инпут запроса новостей
+export const input = document.querySelector('.search__panel');

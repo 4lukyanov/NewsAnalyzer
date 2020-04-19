@@ -1,0 +1,27 @@
+.error_validity {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: red;
+  position: absolute;
+  top: 72px;
+  left: 23px;
+}
+
+@media screen and (max-width: 500px) {
+  .error_validity {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .error_validity {
+    top: 151px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
