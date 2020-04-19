@@ -7,7 +7,7 @@
   <title>News Analyzer</title>
   <meta name="description" content="News Analyzer - сервис для поиска и анализа мировых событий.">
   <link rel="shortcut icon" href="./images/favicon.png">
-  <link rel="stylesheet" href="style.bc90e779876feea74407.css?61e202829c7f2f59bf2b">
+  <link rel="stylesheet" href="style.e393cd711d5ab69ccc39.css?882b14903099f956ed82">
 </head>
 <body>
   <div class="root">
@@ -23,9 +23,10 @@
 
         <h1 class="search__title">Что в мире творится?</h1>
         <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form class="search__form" name="search">
+        <form class="search__form" name="search" novalidate>
             <input type="text" name="keyword" class="search__panel" placeholder="Введите тему новости" required>
             <button class="search__button" type="submit" >Искать</button>
+            <div class="error_validity">Нужно ввести ключевое слово</div>
         </form>
 
       </section>
@@ -62,13 +63,14 @@
                     <p class="news__item-link">Лента.ру</p>
                   </div>
                 </div> -->
+
             </div>
             <div class="news__show-more">
               <button class="news__show-button">Показать еще</button>
           </div>
           </div>
         </section>
-        
+
         <div class="error">
           <img src="./images/error.svg" alt="Произошла ошибка" class="error__img">
           <p class="error__text">Во время запроса произошла ошибка.</p>
@@ -99,6 +101,6 @@
           </ul>
       </footer>
   </div>
-  <script src="main.3fcd12d9bc8f7988b4a3.js?61e202829c7f2f59bf2b"></script>
+  <script src="main.a56a5ed8c991c27e9da2.js?882b14903099f956ed82"></script>
 </body>
 </html>
