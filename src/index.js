@@ -12,12 +12,11 @@ import {sectionShowMore} from './js/constans/constans.js';
 import {errorValidity} from './js/constans/constans.js';
 import {input} from './js/constans/constans.js';
 import {NewsApi} from './js/modules/NewsApi.js';
-import {DataStorage} from './js/modules/DataStorage.js';
+import {storage} from './js/constans/constans.js';
 import {NewsCard} from './js/components/NewsCard.js';
 import {NewsCardList} from './js/components/NewsCardList.js';
 import {SearchInput} from './js/components/SearchInput.js';
 
-const storage = new DataStorage();
 const card = new NewsCard();
 const search = new SearchInput(newsButton, errorValidity, input);
 const newsList = new NewsCardList(newsListContainer, showMoreButton, card, sectionShowMore);
@@ -42,17 +41,17 @@ searchForm.addEventListener('submit', function(event) {
     newsApi.getNews()
       .then((res) => {
         preloader.classList.remove('loading_show');
-        if (res.length == 0) {
+        if (res.news.length == 0) {
           newsList.newsNotFoundShow(newsNotFound, newsSection); // если ничего не найдено
         }
         return res;
       })
       .then((res) => {
-        if((res != undefined) && (res.length != 0)) { // не рендерим пустой массив
+        if((res.news != undefined) && (res.news.length != 0)) { // не рендерим пустой массив
           newsNotFound.removeAttribute('style')
           newsList.removeCards();
-          storage.setData('NewsApi','keywords', JSON.stringify(res), keyword);
-          newsList.addThreeCards(card.createCards(res));
+          storage.setData('NewsApi','keywords','total', JSON.stringify(res.news), keyword, JSON.stringify(res.total));
+          newsList.addThreeCards(card.createCards(res.news));
           newsSection.setAttribute('style', 'display: block');
         };
       })

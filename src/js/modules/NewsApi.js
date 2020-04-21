@@ -17,7 +17,10 @@ export class NewsApi {
       }))
       .then(res => {
         //очищаю и преобразую данные
-        return res.articles.map(this._transformData)
+        return {
+          total: res.totalResults,
+          news: res.articles.map(this._transformData),
+        };
       })
       .catch(err => {
         console.log(err);

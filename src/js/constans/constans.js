@@ -1,5 +1,6 @@
 import {dateFormatISO} from '../utils/formatDate.js';
 import {weekAgo} from '../utils/formatDate.js';
+import {DataStorage} from '../modules/DataStorage.js';
 
 // объект для NewsApi
 export const param = {
@@ -69,3 +70,22 @@ export const errorValidity = document.querySelector('.error_validity');
 
 // инпут запроса новостей
 export const input = document.querySelector('.search__panel');
+
+// ключевое слово на странице аналитики
+export const keywordContainer = document.querySelector('.statistics__keyword');
+
+// количество новостей за неделю
+export const total = document.querySelector('.statistics__total');
+
+// количество упоминаний за неделю
+export const notifications = document.querySelector('.statistics__notifications');
+
+// месяц для графмка
+export const monthContainer = document.querySelector('.analytics__month');
+
+// дни недели
+export const weekContainer = document.querySelector('.analytics__row-y');
+
+// класс для работы с localStorage
+export const storage = new DataStorage();
+
