@@ -9,7 +9,7 @@ export class DataStorage {
       localStorage.setItem(key, value);
       localStorage.setItem(keyKeywords, valueKeywords);
       localStorage.setItem(keyTotal, valueTotal);
-    }
+    };
   };
 
   getData(key) {

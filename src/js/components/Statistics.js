@@ -146,7 +146,7 @@ export class Statistics {
 
   //шаблон для колонок диаграммы
   diagramRowsTemplate(data) {
-    const template = `<div class="analytics__row-item"><span class="analytics__row-count">${data.count}</span></div>`;
+    const template = `<div class="analytics__row-item"><span class="analytics__row-count">${data.count || 0}</span></div>`;
     return template;
   };
 
@@ -154,7 +154,7 @@ export class Statistics {
   addRows(data) {
     for(let i=0; i <data.data.length; i++) {
       this.render(this.diagram, this.diagramRowsTemplate(data.data[i], i));
-      document.querySelector('.analytics__row-item').setAttribute('style', `width: ${data.data[i].percent}%`);
+      document.querySelector('.analytics__row-item').setAttribute('style', `width: ${data.data[i].percent || 2}%`); // при нуле сделаем контейнер, чтобы было видно "0"
     };
   };
 
