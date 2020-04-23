@@ -13,7 +13,7 @@ import {CommitCardList} from '../js/components/CommitCardList.js';
 
 const gitHubApi = new GithubApi('/repos/4lukyanov/NewsAnalyzer/commits');
 const commitCards = new CommitCard();
-const commitCardsList = new CommitCardList(commitListContainer, bullets)
+const commitCardsList = new CommitCardList(commitListContainer, bullets);
 
 gitHubApi.getCommits()
   .then((res) => {

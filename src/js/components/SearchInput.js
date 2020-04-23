@@ -10,7 +10,7 @@ export class SearchInput {
       this.error.setAttribute('style', 'display: none');
     } else {
       this.error.setAttribute('style', 'display: block');
-      this.buttonLock()
+      this.buttonLock();
     };
   };
 

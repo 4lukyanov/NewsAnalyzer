@@ -5,9 +5,6 @@ export class GithubApi{
 
     getCommits() {
         return fetch(`https://api.github.com${this.param}`)
-            .then((res) => {
-                return res;
-            })
             .then(res => {
               if (res.ok) {
                 return res.json();

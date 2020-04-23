@@ -6,9 +6,6 @@ export class NewsApi {
 
   getNews() {
     return fetch(`${this.param.baseUrl}?q=${this.keyword}&apiKey=${this.param.apiKey}&from=${this.param.from}&to=${this.param.to}&pageSize=${this.param.pageSize}`)
-      .then((res) => {
-        return res;
-      })
       .then((res => {
         if (res.ok) {
           return res.json();
