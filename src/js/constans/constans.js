@@ -6,7 +6,7 @@ import {DataStorage} from '../modules/DataStorage.js';
 export const param = {
   apiKey: "ef835791865244009d6ff0d9b2e85c40",
   baseUrl: "https://newsapi.org/v2/everything",
-  from: dateFormatISO(weekAgo()),
+  from: weekAgo(),
   to: dateFormatISO(new Date()),
   pageSize: 100,
 };
@@ -85,6 +85,9 @@ export const monthContainer = document.querySelector('.analytics__month');
 
 // дни недели
 export const weekContainer = document.querySelector('.analytics__row-y');
+
+// область столбчатой диаграммы
+export const diagram = document.querySelector('.analytics__row');
 
 // класс для работы с localStorage
 export const storage = new DataStorage();

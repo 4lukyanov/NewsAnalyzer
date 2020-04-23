@@ -6,9 +6,10 @@ import {notifications} from '../js/constans/constans.js';
 import {storage} from '../js/constans/constans.js';
 import {monthContainer} from '../js/constans/constans.js';
 import {weekContainer} from '../js/constans/constans.js';
+import {diagram} from '../js/constans/constans.js';
 
 const keyword = localStorage.getItem('keywords');
 const newsData = storage.getData('NewsApi');
-const statistics = new Statistics(newsData, keywordContainer, total, notifications, keyword, monthContainer, weekContainer);
+const statistics = new Statistics(newsData, keywordContainer, total, notifications, keyword, monthContainer, weekContainer, diagram);
 
 statistics.loading();

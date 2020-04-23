@@ -1,15 +1,21 @@
 
 // функция форматирования даты для запроса к NewsApi
 export function dateFormatISO(date) {
-  return date.getUTCFullYear() + '-' + (date.getUTCMonth() + 1) + '-' + date.getUTCDate() + 'T' + date.getUTCHours() + ':' + date.getUTCMinutes() + ':' + date.getUTCSeconds();
+  return date.getUTCFullYear() + '-' + (parseInt(date.getMonth()+1) < 10 ? '0' + parseInt(date.getMonth()+1) : parseInt(date.getMonth()+1)) + '-' + date.getUTCDate() + 'T' + date.getUTCHours() + ':' + date.getUTCMinutes() + ':' + date.getUTCSeconds();
 };
 
-// функция отнимает 7 дней от текущей даты
-export function weekAgo() {
-  const day = new Date();
-  day.setDate(day.getDate() - 7);
-  return day;
+// функция форматирования даты для статистики
+export function dateFormatISOWithoutTime(date) {
+  return date.getUTCFullYear() + '-' + (parseInt(date.getMonth()+1) < 10 ? '0' + parseInt(date.getMonth()+1) : parseInt(date.getMonth()+1)) + '-' + date.getUTCDate();
 };
+
+// фунция отсчитывает неделю назад
+export function weekAgo() {
+  let date = new Date();
+  date.setDate(date.getDate() - 6);
+  let weekAgo = date.getFullYear()+'-'+ (parseInt(date.getMonth()+1) < 10 ? '0' + parseInt(date.getMonth()+1) : parseInt(date.getMonth()+1)) +'-'+date.getDate();
+  return weekAgo;
+}
 
 // функция преобразования даты из Api
 export function dateFormatForCards(dateISO) {

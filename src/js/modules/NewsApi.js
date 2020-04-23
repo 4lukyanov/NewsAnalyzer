@@ -37,7 +37,7 @@ export class NewsApi {
         url: data.url
     };
   };
-}
+};
 
 
 
